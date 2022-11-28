@@ -4,5 +4,5 @@ A ideia é que todo service, por ser uma classe sem estado inteligente(atributos
 
 Num cenário de controllers 100% coesos, o service geralmente aparece em duas situações:
 
-1.O limite de 7 pontos do controller foi estourado e você precisa dividir a responsabilidade. Geralmente essa classe nova tende a ser um service do DDD
+1.O limite de 7 pontos do controller foi estourado e você precisa dividir a responsabilidade. Geralmente essa classe nova tende a ser um service do DDD  
 2.A entrada de dados do sistema não é feita apenas pela web e agora você mais de um ponto de entrada. O código pode ser isolado para ser reaproveitado. Geralmente essa classe também vai ser um Service do DDD. 
